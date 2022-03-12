@@ -38,15 +38,6 @@ client.on("messageCreate", message => {
             .then(originalMsg => {
                 if (originalMsg.author.bot) return;
                 let text = originalMsg.content;
-                /**gode(text)
-                    .then(response => {
-                        console.log(`[${originalMsg.guild.name}] ${originalMsg.author.username} said: ${response.results}`);
-                        message.channel.send(`${originalMsg.author.username} said: ${response.results}`)
-                    })
-                    .catch(err => {
-                        message.channel.send("Error");
-                        console.log(err)
-                    });**/
                 let returnmessage = skoyify(text)
                 originalMsg.reply(returnmessage)
             })
