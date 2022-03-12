@@ -45,4 +45,4 @@ $ node .
 
 ## ษัญญ๊ฮณุญ๊ฏ
 
-[ษัญย๊ฮนุญ๊ฏเอ็ฒไฮธิ๊ (MIT License)](https://github.com/gxjakkap/skoybot/blob/main/LICENSE)
+[ษัญย๊ฮนุญ๊ฏเอ็ฒไฮธิ๊ (MIT License)](https://github.com/gxjakkap/skoybot/blob/main/LICENSE.md)
