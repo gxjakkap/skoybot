@@ -1,0 +1,14 @@
+{
+  "name": "skoybot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jakkaphat Chalermphanaphan <gunt@guntxjakka.me>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "skoy": "^0.3.1"
+  }
+}
