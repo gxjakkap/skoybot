@@ -18,7 +18,7 @@ client.on("ready", () => {
     console.log(`Logged in. I'm ${client.user.tag}!`);
 });
 
-client.on("guildCreate", guild => {
+/**client.on("guildCreate", guild => {
     let channel = guild.systemChannel
     let embed = new MessageEmbed()
         .setTitle("ษวัษดลีร์ เลาเป็ฯสก๊อยป์")
@@ -28,7 +28,7 @@ client.on("guildCreate", guild => {
         .setFooter({ text: "Made by GuntxJakka" })
     channel.send({ embeds: [embed] })
 
-})
+})**/
 
 client.on("messageCreate", message => {
     if (message.author.bot || message.content.includes("@here") || message.content.includes("@everyone")) return;
